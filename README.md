@@ -25,8 +25,11 @@ Digitar os seguintes comandos no seu terminal
     python manage.py createsuperuser
 
 10 - Criar e-mail e recebimento de uma nova senha por e-mail:
+     
      Fazer o cadastro do seu usuário e senha no sistema:
+      
       Entrar no terminal e digitar os seguintes comandos:
+        
         python manage.py shell
         >>> from django.contrib.auth.models import User
         >>> User.objects.count()
@@ -35,9 +38,12 @@ Digitar os seguintes comandos no seu terminal
         >>> u.username
         ''*vai aparecer o seu nome
         >>> exit()
+      
       Digitar o comando:
+        
         python3 manage.py sendtestemail seunome@example.com
       tem que aparecer essa mensagem:
+        
         Content-Type: text/plain; charset="utf-8"
         MIME-Version: 1.0
         Content-Transfer-Encoding: 7bit
