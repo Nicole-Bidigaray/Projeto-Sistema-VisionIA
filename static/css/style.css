@@ -1,0 +1,161 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* -- PAGINA DE LOGIN -- */
+.asteriskField {
+  display: none;
+}
+
+form .alert ul li {
+  list-style: none;
+}
+
+form .alert ul {
+  padding: 0;
+  margin: 0;
+}
+/* -- FIM PAGINA DE LOGIN -- */
+
+/* -- PAGINA PRINCIPAL -- */
+h1{
+  text-align: center;
+}
+
+.divisoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.divisao-camera{
+  width: 100%;
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.divisao-camera img{
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.espaco-entre{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.btn-primary{
+  background-color: #0a5c4e;
+}
+.btn-secondary{
+  color: #969595;
+}
+
+.modal-body form .botoes{
+  display: flex;
+  flex-direction: row;
+  padding-right: 1rem;
+  justify-content: space-around;
+}
+
+.divisao-imagens-capturadas{
+  width: 100%;
+  height: 100%;
+  padding-right: 1rem;
+}
+
+.divisao-imagens-capturadas h2{
+  text-align: center;
+}
+
+.modelo h2{
+  text-align: center;
+  padding-bottom: 1rem;
+}
+
+.divisao-imagens-capturadas img{
+  width: 100%;
+  padding-bottom: 1rem;
+}
+
+.rotulacao{
+  width: 100%;
+  height: 100%;
+}
+
+.rotulacao h2{
+  text-align: center;
+}
+
+.rotulacao img{
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.rotulacao .botoes_coloridos{
+  justify-content: center;
+  align-items: center;
+}
+
+.rotulacao .botoes_coloridos #branco{
+  background-color: white;
+  width: 5rem;
+  height: 2rem;
+  border: 0.5px solid black;
+  border-radius: 20%;
+}
+
+.rotulacao .botoes_coloridos #azul{
+  background-color: blue;
+  width: 5rem;
+  height: 2rem;
+  border: 0.5px solid black;
+  border-radius: 20%;
+}
+
+.rotulacao .botoes_coloridos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding-left: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.rotulacao .botoes_coloridos #vermelho{
+  background-color: red;
+  width: 5rem;
+  height: 2rem;
+  border: 0.5px solid black;
+  border-radius: 20%;
+}
+
+.rotulacao .botoes_coloridos #verde{
+  background-color: green;
+  width: 5rem;
+  height: 2rem;
+  border: 0.5px solid black;
+  border-radius: 20%;
+}
+
+.rotulacao .botoes_coloridos #amarelo{
+  background-color: yellow;
+  width: 5rem;
+  height: 2rem;
+  border: 0.5px solid black;
+  border-radius: 20%;
+}
+
+.rotulacao .botoes{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+/* -- FIM PAGINA PRINCIPAL -- */
+
