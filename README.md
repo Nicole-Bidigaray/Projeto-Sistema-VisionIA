@@ -13,7 +13,7 @@ Digitar os seguintes comandos no seu terminal
 4 - Instalar o Django: pip install django
 
 5 - Fazer o git clone no seu terminal: 
-    git clone https://github.com/Nicole-Bidigaray/Projeto-Sistema-Estacionamento.git
+    git clone https://github.com/Nicole-Bidigaray/Projeto-Sistema-VisionIA.git
 
 6 - Migrar o banco de dados: 
     python manage.py makemigrations
@@ -67,7 +67,7 @@ Digitar os seguintes comandos no seu terminal
 
 11 - pip install django-bootstrap-form
 
-12 - pip install django-crispy forms
+12 - pip install django-crispy-forms
 
 13 - pip install -r requirements.txt
 
